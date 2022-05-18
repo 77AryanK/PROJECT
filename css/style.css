@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Koulen&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+    ;
+}
+
+body {
+    background-color: rgb(228, 228, 236);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 2px 9px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header .ul2 {
+    transform: translate(32vw, 1vh);
+}
+
+nav {
+    display: flex;
+}
+
+header .ul1 {
+    transform: translate(0vw, 1vh);
+    padding: 0px 36px;
+
+}
+
+header {
+    background-color: var(--main-bg-color);
+    padding: 15px 42px;
+    color: white;
+    position: sticky;
+
+}
+
+header li {
+    display: inline;
+    padding: 0px 20px;
+    list-style: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: smaller;
+    /* font-weight: bold; */
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.slider {
+    height: 500px;
+}
+
+.slider img {
+    margin: 1vh 0vw;
+}
+
+.search input {
+    height: 20px;
+    width: 265px;
+    border: inset var(--main-bg-color);
+}
+
+.contianer {
+    min-height: calc(100vh - 58px - 35px);
+}
+
+.contianer h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 0vh 1vw;
+    border: 1px rgb(206, 208, 203);
+    background-color: white(228, 228, 236);
+    color: var(--main-bg-color);
+    margin: 0vh 2.3vw;
+    font-size: 34px;
+    font-weight: revert-layer;
+}
+
+.p1 {
+    font-size: 22px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    line-height: 29px;
+}
+
+.p2 {
+    color: rgb(174, 185, 194);
+    line-height: 25px;
+
+}
+
+.card img:hover {
+    height: 160px;
+    overflow: hidden;
+}
+
+/* .offerbox{
+    background-color: aliceblue;
+    height: 5vh;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder ;
+    color: #1561dd;
+    border: 4px inset white;
+    padding: 2px 10px;
+}
+.offerbox p{
+    padding: 0px 0px;
+
+} */
+/* .card h2{
+    font-family: 'Rubik', sans-serif;
+    padding: 0px 38px;
+} */
+.mainclass {
+    background-color: white;
+    margin: 2px 29px;
+}
+
+.mainclass2 {
+    background-color: white;
+    margin: 2px 29px;
+}
+
+.mainclass img {
+    cursor: pointer;
+}
+
+.mainclass2 img {
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    padding: 4vh 2vw;
+    /* background-color: antiquewhite; */
+    /* border: 1px inset white */
+}
+
+.box1 {
+    display: ;
+}
+
+.lines {
+    text-align: center;
+    justify-content: ;
+    align-items: ;
+}
+
+footer {
+    height: 5vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
